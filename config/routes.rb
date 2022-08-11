@@ -1,6 +1,12 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  # User Routes
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+  # Movie Routes
+
+  # Genre Routes
+
+  # Movies Genres Routes
+
+  # Users Movies Routes
+
 end
