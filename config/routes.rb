@@ -8,5 +8,4 @@ Rails.application.routes.draw do
   # Movies Genres Routes
 
   # Users Movies Routes
-
 end
