@@ -3,3 +3,15 @@ GET http://localhost:3000/movies
 
 ### Show Route
 GET http://localhost:3000/movies/1
+
+### Create Route
+POST http://localhost:3000/movies
+Content-Type: application/json
+
+{
+  "title": "Create Test",
+  "duration": "1 hour",
+  "age_rating": "R",
+  "imdb_rating": 6.1,
+  "rotten_tomatoes_rating": 65
+}
