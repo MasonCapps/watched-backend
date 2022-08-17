@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   delete "/movies/:id" => "movies#destroy"
 
   # Genre Routes
+  get "/genres" => "genres#index"
 
   # Movies Genres Routes
 
