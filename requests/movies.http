@@ -15,3 +15,12 @@ Content-Type: application/json
   "imdb_rating": 6.1,
   "rotten_tomatoes_rating": 65
 }
+
+### Patch Route
+PATCH http://localhost:3000/movies/5
+Content-Type: application/json
+
+{
+  "title": "Update Test",
+  "age_rating": "PG-13"
+}
