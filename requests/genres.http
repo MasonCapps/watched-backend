@@ -3,3 +3,11 @@ GET http://localhost:3000/genres
 
 ### Show Route
 GET http://localhost:3000/genres/1
+
+### Create Route
+POST http://localhost:3000/genres
+Content-Type: application/json
+
+{
+  "name": "Create Test"
+}
