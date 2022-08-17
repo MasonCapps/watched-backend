@@ -11,3 +11,11 @@ Content-Type: application/json
 {
   "name": "Create Test"
 }
+
+### Update Route
+PATCH http://localhost:3000/genres/4
+Content-Type: application/json
+
+{
+  "name": "Update Test"
+}

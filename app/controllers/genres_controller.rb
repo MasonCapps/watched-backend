@@ -19,4 +19,15 @@ class GenresController < ApplicationController
       render json: { message: "Error, genre not created!" }
     end
   end
+
+  def update
+    genre = Genre.find_by(id: params[:id])
+    genre.name = params[:name] || genre.name
+
+    if genre.save
+      render json: { message: "Genre successfully updated!" }
+    else
+      render json: { message: "Error, genre not updated!" }
+    end
+  end
 end
