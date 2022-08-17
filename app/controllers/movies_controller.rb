@@ -39,4 +39,13 @@ class MoviesController < ApplicationController
       render json: { message: "Error, movie not updated!" }
     end
   end
+
+  def destroy
+    movie = Movie.find_by(id: params[:id])
+    if movie.destroy
+      render json: { message: "Movie successfully deleted!" }
+    else
+      render json: { message: "Error, movie not deleted!" }
+    end
+  end
 end
