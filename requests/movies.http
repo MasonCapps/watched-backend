@@ -1,1 +1,5 @@
+### Index Route
 GET http://localhost:3000/movies
+
+### Show Route
+GET http://localhost:3000/movies/1
