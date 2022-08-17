@@ -10,6 +10,7 @@ Rails.application.routes.draw do
 
   # Genre Routes
   get "/genres" => "genres#index"
+  get "/genres/:id" => "genres#show"
 
   # Movies Genres Routes
 

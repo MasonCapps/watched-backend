@@ -1,2 +1,5 @@
 ### Index Route
 GET http://localhost:3000/genres
+
+### Show Route
+GET http://localhost:3000/genres/1
